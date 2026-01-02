@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="60" height="60">
+  <defs>
+    <linearGradient id="convexGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3A3B3D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1F2022;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#convexGradient)"/>
+  <!-- Convex "C" shape stylized -->
+  <path d="M 65 30 
+           C 80 35, 85 50, 80 65 
+           C 75 80, 55 85, 40 80 
+           C 25 75, 20 60, 20 50 
+           C 20 40, 25 25, 45 20 
+           C 55 18, 60 22, 65 30"
+        fill="none" 
+        stroke="#F7931A" 
+        stroke-width="6"
+        stroke-linecap="round"/>
+  <!-- Inner curve representing yield -->
+  <path d="M 55 38 
+           C 65 42, 68 52, 65 60 
+           C 62 68, 50 72, 42 68"
+        fill="none" 
+        stroke="#FFD700" 
+        stroke-width="4"
+        stroke-linecap="round"/>
+  <!-- Arrow indicating boost/growth -->
+  <path d="M 50 55 L 60 45 L 55 45 L 55 35 L 45 35 L 45 45 L 40 45 Z"
+        fill="#00D4AA"
+        opacity="0.9"/>
+</svg>
